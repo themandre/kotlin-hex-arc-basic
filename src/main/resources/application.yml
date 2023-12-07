@@ -1,0 +1,15 @@
+spring:
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+
+api:
+  description: Definition for the Users API.
+  contact:
+    name: themandre
+    email: sergiohp9@gmail.com
+    url: https://github.com/themandre
+  server:
+    title: Kotlin Hexagonal Architecture - In Memory
+    url: http://localhost:8080/
+    description: Localhost
+  version: v1
