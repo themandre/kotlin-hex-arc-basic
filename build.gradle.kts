@@ -29,7 +29,6 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlinxCoroutinesVersion")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor:$kotlinxCoroutinesVersion")
-    implementation("org.reactivestreams:reactive-streams:1.0.4")
 
     implementation("ch.qos.logback:logback-classic:$logbackVersion")
     implementation("ch.qos.logback.contrib:logback-json-classic:0.1.5")
@@ -39,6 +38,7 @@ dependencies {
     // Others
     implementation("org.yaml:snakeyaml:2.2")
 
+    // Test
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
